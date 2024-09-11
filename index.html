@@ -4,35 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>academia-project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <section class="hero">
-      <div class="container">
-        <div class="header-section grid grid-cols-7">
-          <div class="col-span-3">
-            <a href="/"></a>
-            <small>Online Education & Learning</small>
+      <div class="my-container">
+        <div class="header-section grid grid-cols-5 py-8 gap-4">
+          <div
+            class="col-span-2 flex flex-col text-white font-serif-Roboto, Arial, sans-serif"
+          >
+            <a href="/" class="text-4xl font-bold">ACADEMIA</a>
+            <small>ONLINE EDUCATION & LEARNING</small>
           </div>
-          <div class="col-span-1">
-            <i></i>
-            <p>Monday-Friday</p>
-            <p>8:00AM-8:00PM</p>
+          <div class="col-span-1 flex align-middle items-center gap-2">
+            <i class="fa-regular fa-clock text-2xl text-white"></i>
+            <div class="text-white font-bold">
+              <p>Monday-Friday</p>
+              <p>8:00AM-8:00PM</p>
+            </div>
           </div>
-          <div class="col-span-1">
-            <i></i>
-            <p>Call Us</p>
-            <p>+2 392 3929 210</p>
+          <div
+            class="col-span-1 flex align-middle items-center gap-2 text-white"
+          >
+            <i class="fa-solid fa-phone text-2xl"></i>
+            <div class="font-bold">
+              <p>Call Us</p>
+              <p>+2 392 3929 210</p>
+            </div>
           </div>
-          <div class="col-span-2">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
+          <div class="col-span-1 flex justify-end gap-8 text-white">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-basketball"></i>
           </div>
         </div>
-        <nav class="bold">
-          <div>
+        <nav class="flex justify-between align-center">
+          <div class="text-white flex font-bold">
             <a href="#">Home</a>
             <a href="#">All Courses</a>
             <a href="#">About</a>
@@ -40,10 +56,21 @@
             <a href="#">Pricing</a>
             <a href="#">Journal</a>
             <a href="#">Contact</a>
-            <a href="#">Get Certificate</a>
           </div>
+          <a href="#" class="text-white font-bold">Get Certificate</a>
         </nav>
-        rest of hero
+        <div class="text-white font-bold hero-info">
+          <p>Welcome to Academia</p>
+          <h1 class="slogan">Best Online Education Expertise</h1>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <div>
+            <button class="btn btn-blue">Get started now!</button>
+            <button class="btn btn-white">View Course</button>
+          </div>
+        </div>
       </div>
     </section>
     <section>Features goes here</section>

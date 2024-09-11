@@ -1,23 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.container{
-    width: 80%;
-    margin: auto;
-    height: 100%;
+.my-container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
 }
 .hero {
-    background-image: url(../images/hero-bg.png);
-    height: 100vh;
-    background-size: cover;
+  background-image: url(../images/hero-bg.png);
+  height: 100vh;
+  background-size: cover;
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 71px;
-    align-items: center;
-    background-color: ;
+nav a {
+  padding: 10px;
+}
+
+.hero-info {
+  height: 60%;
+  padding-top: 10%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slogan {
+  font-size: 40px;
+}
+
+.btn {
+  height: 53px;
+  padding: 16px 24px;
+  border-radius: 4px;
+}
+
+.btn-blue {
+  background-color: #1eb2a6;
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  color: #1eb2a6;
 }
