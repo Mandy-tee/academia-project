@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.hero {
+    background-image: url(../images/hero-bg.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 71px;
+    align-items: center;
+    background-color: ;
+}
