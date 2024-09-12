@@ -27,6 +27,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 20px;
 }
 
 .glass {
@@ -53,11 +54,13 @@ nav a {
 .btn-blue {
   background-color: #1eb2a6;
   color: white;
+  font-size: 13px;
 }
 
 .btn-white {
   background-color: white;
   color: #1eb2a6;
+  font-size: 13px;
 }
 
 .features-image {
