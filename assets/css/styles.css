@@ -10,6 +10,7 @@ body {
   margin: auto;
   height: 100%;
 }
+
 .hero {
   background-image: url(../images/hero-bg.png);
   height: 100vh;
@@ -83,4 +84,18 @@ nav a {
 .section-title {
   font-size: 16px;
   color: #1eb2a6;
+}
+
+.work-stats {
+  margin-top: 2rem;
+
+  background-image: url("../images/button-image.png");
+  background-position: center;
+}
+
+.work-stats .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 4rem 0;
+  height: 100%;
+  width: 100%;
 }
